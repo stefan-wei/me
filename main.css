@@ -116,6 +116,12 @@ a:visited{
   box-shadow: 5px 5px 4px #555555;
   }
 
+.me{
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 2.2vw;
+}
+
 .content{
   width: 90%;
   display: flex;
@@ -141,11 +147,6 @@ a:visited{
   width: 50%;
   font-family: "Helvetica", "Arial", sans-serif;
   font-size: 1.4vw;
-}
-
-h6{
-  font-size: 2.2vw;
-  font-weight: normal;
 }
 
 .research {
@@ -193,7 +194,7 @@ h6{
 .bio-title{
   font-family: "Helvetica", "Arial", sans-serif;
   font-weight: bold;
-  font-size: 1.4vw;
+  font-size: 2.2vw;
   margin-bottom: 3.5%;
 }
 
@@ -207,44 +208,32 @@ h6{
   font-weight: bold;
   margin-top: 3%;
 }
-.footer-spacer{
-  display: flex;
-  width:100%;
-  height:75px;
-}
 
-.footer{
-  padding-left: 5%;
-  padding-right: 5%;
-  font-family: "Helvetica", "Arial", sans-serif;
-  bottom: 0;
+.hobbies{
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 75px;
-  background: #FFFFFF;
+  height: 35vw;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 75px;
 }
 
-/* LINK RELATED CODE */
-a:link{
-  color: black;
-  text-decoration: underline;
+.grid {
+  width: 40%;
+  height: inherit;
+  background-color: #BEC2CB;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 3.5%;
+  padding-top: 3.5%;
+  margin-bottom: 75px;
+  box-shadow: 5px 5px 4px #555555;
 }
-a:visited{
-  color: black;
-  text-decoration: underline;
-}
-a:hover{
-  color: #F9FBE7;
-  text-decoration: underline;
-}
-a:active{
-  color: #F9FBE7;
-}
-a:visited:hover{
-  color: #F9FBE7;
-}
-a:visited:active{
-  color: #F9FBE7;
-}
+
