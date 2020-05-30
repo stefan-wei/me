@@ -151,7 +151,7 @@ h6{
   padding-left: 5%;
   padding-right: 5%;
   font-family: "Helvetica", "Arial", sans-serif;
-  position: relative;
+  position: fixed;
   bottom: 0;
   display: flex;
   justify-content: space-between;
