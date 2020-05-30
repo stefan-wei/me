@@ -12,6 +12,7 @@ body{
   min-height: 100vh;
   width: 100%;
   background-image: linear-gradient(to bottom right, black, white);
+  background-attachment: fixed;
 }
 
 html{
@@ -28,7 +29,8 @@ a:visited{
   padding-left: 5%;
   padding-right: 5%;
   font-family: "Helvetica", "Arial", sans-serif;
-  position: absolute;
+  position: fixed;
+  z-index: 1;
   top: 0;
   display: flex;
   justify-content: space-between;
@@ -42,7 +44,7 @@ a:visited{
   display: flex;
   width:100%;
   height:75px;
-  margin-bottom: 50px;
+  margin-bottom: 75px;
 }
 
 .name{
@@ -104,14 +106,13 @@ a:visited{
   width: 75%;
   background-color: #BEC2CB;
   border-radius: 40px;
-  /*border: 2px solid black;*/
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   padding-bottom: 3.5%;
   padding-top: 3.5%;
-  margin-bottom: 50px;
+  margin-bottom: 75px;
   box-shadow: 5px 5px 4px #555555;
   }
 
@@ -147,11 +148,75 @@ h6{
   font-weight: normal;
 }
 
+.research {
+  width: 90%;
+  background-color: #BEC2CB;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 3.5%;
+  padding-top: 3.5%;
+  margin-bottom: 75px;
+  box-shadow: 5px 5px 4px #555555;
+  }
+
+.urc{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding-left: 3%;
+  padding-right: 3%;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: normal;
+}
+
+.urc img{
+  max-width: 28%;
+  border-radius: 10px;
+}
+
+.research-bio{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: inherit;
+  align-self: stretch;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.bio-title{
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 1.4vw;
+  margin-bottom: 3.5%;
+}
+
+.bio-paragraph li{
+  font-size: .85vw;
+  margin-left: 5%;
+}
+
+.list{
+  font-size: .83vw;
+  font-weight: bold;
+  margin-top: 3%;
+}
+.footer-spacer{
+  display: flex;
+  width:100%;
+  height:75px;
+}
+
 .footer{
   padding-left: 5%;
   padding-right: 5%;
   font-family: "Helvetica", "Arial", sans-serif;
-  position: fixed;
   bottom: 0;
   display: flex;
   justify-content: space-between;
@@ -160,6 +225,7 @@ h6{
   height: 75px;
   background: #FFFFFF;
 }
+
 /* LINK RELATED CODE */
 a:link{
   color: black;
