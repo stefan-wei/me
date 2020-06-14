@@ -305,7 +305,7 @@ ul {
   background: #333636;
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .posters{
     display: flex;
     flex-direction: column;
@@ -331,6 +331,19 @@ ul {
     font-family:'Roboto', sans-serif;
     font-weight: bold;
     font-size: 2vw;
+    margin-left: 8%;
+  }
+  .work-list{
+    margin-top:5px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 2vw;
+    margin-left: 8%;
   }
 }
 
